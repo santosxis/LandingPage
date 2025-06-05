@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page | Kássio Barros</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body>
+  <div id="particles-js"></div>
+
+  <header id="inicio" class="container">
+    <h1 class="gradient-text">Kássio Barros</h1>
+    <p class="subtitle">
+      Desenvolvedor Front-End focado em entregar soluções modernas, responsivas e com excelente experiência de usuário.
+    </p>
+    <a href="#carreira" class="hero-button">Começar Agora</a>
+  </header>
+
+  <section id="sobre" class="benefits container">
+    <h2 class="section-title">Quem sou eu</h2>
+    <article class="benefit-card">
+      <span class="benefit-number">01</span>
+      <h3>Comunicação Clara</h3>
+      <p>
+        Sou direto, objetivo e gosto de entender exatamente o que o cliente precisa. Isso torna a comunicação mais
+        fluida e o projeto mais eficiente.
+      </p>
+    </article>
+    <article class="benefit-card">
+      <span class="benefit-number">02</span>
+      <h3>Aprendizado Rápido</h3>
+      <p>
+        Tenho facilidade em absorver novas tecnologias e ferramentas. Isso me permite estar sempre atualizado e entregar
+        soluções modernas.
+      </p>
+    </article>
+    <article class="benefit-card">
+      <span class="benefit-number">03</span>
+      <h3>Trabalho em Equipe</h3>
+      <p>
+        Valorizo o trabalho colaborativo, escuto ideias e sei trabalhar junto para chegar ao melhor resultado possível.
+      </p>
+    </article>
+  </section>
+
+  <section id="skills" class="features container">
+    <h2 class="section-title">Tecnologias que domino</h2>
+    <span class="pill">HTML5 & CSS3</span>
+    <span class="pill">JavaScript ES6+</span>
+    <span class="pill">Git & GitHub</span>
+    <span class="pill">Responsividade</span>
+  </section>
+
+  <section id="carreira" class="cta-section container">
+    <h2>Vamos Criar Algo Incrível?</h2>
+    <p>
+      Tem uma ideia, projeto ou oportunidade? Preencha o formulário abaixo e entrarei em contato o mais rápido possível.
+      Será um prazer colaborar com você!
+    </p>
+    <form id="contact-form" class="contact-form" action="https://formsubmit.co/kassioxis@icloud.com" method="POST">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Seu nome" required />
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Seu e-mail" required />
+      </div>
+      <div class="form-group">
+        <textarea name="message" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+      </div>
+
+      <!-- Configurações extras -->
+      <input type="hidden" name="_captcha" value="false" />
+      <input type="hidden" name="_subject" value="Novo Contato pelo Portfólio!" />
+      <input type="hidden" name="_template" value="table" />
+
+
+      <button type="submit" class="hero-button">Enviar Mensagem</button>
+    </form>
+  </section>
+
+  <footer class="container">
+    <p>&copy; 2025 Kássio Barros | Desenvolvedor Front-End</p>
+    <p>
+      <a href="https://github.com/santosxis" target="_blank">GitHub</a> |
+      <a href="https://santosxis.github.io/portfolio-kassio/" target="_blank">Portfólio</a>
+    </p>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="../js/main.js"></script>
+  <script src="../js/form.js"></script>
+</body>
+
+</html>
